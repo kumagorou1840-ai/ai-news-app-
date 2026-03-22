@@ -4,6 +4,22 @@ dist/
 dist-ssr/
 *.local
 
+# Environment variables (CRITICAL: API keys should be in these files)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Secrets and credentials
+*.key
+*.pem
+*.pub
+.npmrc
+.yarnrc
+
 # Editor
 .vscode/
 .idea/
