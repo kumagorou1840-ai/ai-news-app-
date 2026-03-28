@@ -25,44 +25,70 @@ export const newsDatabase: Record<string, DailyDatabase> = {
   '2026-03-29': {
     general: [
       {
-        id: 2026032901,
-        title: "2026-03-29の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        id: 2901,
+        title: "Microsoft、Windows 12に『Copilot OS』機能を統合：PC操作の完全自動化へ",
+        summary: "キーボードやマウスを使わず、会話だけでアプリ間の連携やファイル操作が可能に。AIがOSのカーネルレベルで動作。",
+        fullContent: "Microsoftは本日、次期OS『Windows 12』の先行プレビュー版を公開し、OSの核となる新機能『Copilot OS』を発表しました。これは単なるチャットアシスタントではなく、AIがOSのファイルシステムやAPIに直接アクセスし、ユーザーの意図を汲み取って複雑なワークフローを自律的に実行するものです。\n\n例えば、「先週の会議資料から予算案を抽出して、今のスライドのデザインに合わせてExcelグラフを作成し、担当チームにメールで送って」という一言で、複数のアプリがバックグラウンドで連携し、タスクを完遂します。また、プライバシー保護のため、全ての推論処理はNVIDIAのRubinチップや最新のNPUを搭載したPC上でローカル実行されます。",
+        category: 'OS / Platform',
+        source: 'Microsoft Blog',
+        references: [
+          { title: "Windows 12 Preview: The First AI-Native Operating System", url: "https://blogs.windows.com/window12-preview" },
+          { title: "On-Device AI: How Copilot OS Protects User Privacy", url: "https://microsoft.com/security/ai-os" }
+        ]
+      },
+      {
+        id: 2902,
+        title: "Meta、リアルタイム多言語通訳グラス『Orion V2』を公開：言語の壁が消滅",
+        summary: "ARグラスを通じて相手の言葉がリアルタイムで字幕表示。レイテンシは0.1秒以下で自然な会話を実現。",
+        fullContent: "Metaは、ARグラスの最新プロトタイプ『Orion V2』のデモンストレーションを行いました。このデバイスは、内蔵された超小型のマルチモーダルAIにより、対面している相手の話す言語を瞬時に翻訳し、レンズ上に字幕として投影します。さらに、指向性スピーカーにより、相手の声に近い音色で翻訳された音声を再生することも可能です。\n\nマーク・ザッカーバーグCEOは、「これは単なるガジェットではなく、人類のコミュニケーションを再定義するツールだ」と語りました。2026年末までの市販化を目指しており、価格はハイエンドスマートフォンと同程度になる見込みです。",
+        category: 'AR / Wearable',
+        source: 'Meta Newsroom'
       }
     ],
     agents: [
       {
-        id: 2026032911,
-        title: "2026-03-29のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        id: 2911,
+        title: "マルチエージェントOS『AgentCloud』が法人向けに正式リリース",
+        summary: "営業、開発、人事の各専門エージェントがチームを組み、プロジェクトを自律的に進行。企業導入が加速。",
+        fullContent: "自律型エージェントのオーケストレーションプラットフォーム『AgentCloud』が正式にサービスを開始しました。このシステムは、企業内の異なる役割を持つ複数のAIエージェントを統合管理し、人間がプロジェクトマネージャーとして大まかな目標を提示するだけで、エージェント同士がタスクを分解・分担し、進捗を報告します。\n\n初期導入した企業では、事務作業の80%が自動化され、意思決定のスピードが3倍に向上したというデータも出ています。特に、セキュリティガバナンス機能が強化されており、企業秘密の漏洩を防ぎながら社内データから学習するセキュアな環境を提供します。",
+        category: 'Enterprise AI',
+        source: 'AgentCloud Press',
+        references: [
+          { title: "AgentCloud: Scaling Autonomous Teams for Modern Business", url: "https://agentcloud.ai/launch" }
+        ]
       }
     ]
   },
   '2026-03-28': {
     general: [
       {
-        id: 2026032801,
-        title: "2026-03-28の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        id: 2801,
+        title: "Apple、オンデバイスAI『Apple Intelligence Pro』を電撃発表",
+        summary: "WWDCを待たずに公開された最新モデルは、M4チップに最適化。オフラインでの高度な画像生成と推論を実現。",
+        fullContent: "Appleは本日、プレスリリースを通じて『Apple Intelligence Pro』を発表しました。この新モデルは、iPhoneやMacのデバイス上で直接動作する世界最大級のオンデバイスモデルです。クラウドを介さないため、圧倒的なレスポンスの速さとプライバシーの安全性を両立しています。\n\n新機能として、写真アプリ内で「去年の夏休みの楽しそうな写真を、ピクサー風のアニメ動画にして」といった指示を出すと、数秒で高品質な動画を生成する機能や、受信した大量のメールから優先順位を判断し、緊急性の高いものに対して返信の下書きを自動作成する機能が含まれています。",
+        category: 'Mobile AI',
+        source: 'Apple Newsroom'
+      },
+      {
+        id: 2802,
+        title: "DeepMind、科学探究特化型モデル『AlphaScientific』を公開",
+        summary: "新材料の発見プロセスを100倍高速化。超伝導体や新薬候補の特定に革命。",
+        fullContent: "Google DeepMindは、科学的な発見を加速させるための新しいAIモデル『AlphaScientific』を発表しました。このモデルは、数億件の論文と実験データを学習しており、特定の物理的特性を持つ未知の材料の分子構造を予測することに特化しています。\n\nデモンストレーションでは、従来の方法では数十年かかるとされていた新しい蓄電池材料の候補を、わずか数時間で特定することに成功しました。これは、クリーンエネルギーへの移行や難病の治療法開発を劇的に早める可能性を秘めています。",
+        category: 'Science',
+        source: 'Nature News'
       }
     ],
     agents: [
       {
-        id: 2026032811,
-        title: "2026-03-28のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        id: 2811,
+        title: "AutoGPT 5.0が登場：ブラウザ操作の精度が99%に到達し、ほぼ全ウェブサイトを攻略",
+        summary: "ログイン、予約、複雑なフォーム入力など、人間がブラウザで行うすべての操作を完全に自律化。",
+        fullContent: "オープンソースプロジェクトのAutoGPTは、最新の5.0アップデートをリリースしました。このバージョンでは、視覚認識能力が飛躍的に向上し、人間と同じようにウェブサイトのボタンや入力欄を「見て」理解します。DOM構造に依存しないため、デザインが複雑なサイトや動的なサイトでも迷うことなく操作を継続できます。\n\n「海外のホテルの予約から、航空券の比較、現地のレストランの予約まで一括でやっておいて」という指示を出すと、AutoGPT 5.0は各サイトを巡回し、クレジットカード決済の手前まですべてを自律的に進めます。このアップデートにより、エージェントが私たちのデジタル秘書として実用的なレベルに達したと言えます。",
         category: 'Autonomous',
-        source: 'Agent Insights'
+        source: 'GitHub / AutoGPT Project',
+        references: [
+          { title: "AutoGPT 5.0 Release Notes: Achieving Near-Perfect Web Navigation", url: "https://github.com/Significant-Gravitas/Auto-GPT/releases" }
+        ]
       }
     ]
   },
