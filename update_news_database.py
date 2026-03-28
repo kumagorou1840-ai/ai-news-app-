@@ -4,7 +4,8 @@ from datetime import datetime, timedelta
 
 # 設定
 DB_PATH = 'src/data/newsDatabase.ts'
-TARGET_DATE = "2026-03-22" # セッションの現在日付
+# 実行時の日付を自動取得
+TARGET_DATE = datetime.now().strftime('%Y-%m-%d')
 
 def get_latest_date(content):
     dates = re.findall(r"\'(\d{4}-\d{2}-\d{2})\'\:", content)

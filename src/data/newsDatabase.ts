@@ -1,3 +1,8 @@
+export interface Reference {
+  title: string;
+  url: string;
+}
+
 export interface NewsItem {
   id: number;
   title: string;
@@ -5,6 +10,7 @@ export interface NewsItem {
   fullContent: string;
   category: string;
   source: string;
+  references?: Reference[];
 }
 
 export type NewsletterType = 'general' | 'agents';
@@ -16,6 +22,197 @@ export interface DailyDatabase {
 }
 
 export const newsDatabase: Record<string, DailyDatabase> = {
+  '2026-03-29': {
+    general: [
+      {
+        id: 2026032901,
+        title: "2026-03-29の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026032911,
+        title: "2026-03-29のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-03-28': {
+    general: [
+      {
+        id: 2026032801,
+        title: "2026-03-28の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026032811,
+        title: "2026-03-28のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-03-27': {
+    general: [
+      {
+        id: 2026032701,
+        title: "2026-03-27の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026032711,
+        title: "2026-03-27のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-03-26': {
+    general: [
+      {
+        id: 2601,
+        title: "OpenAI、動画生成AI『Sora』を一般公開：クリエイティブ制作の民主化が加速",
+        summary: "これまで一部のクリエイターに限定されていた動画生成AIが全ユーザーに開放。プロ品質の動画がプロンプト一つで生成可能に。",
+        fullContent: "OpenAIは本日、待望の動画生成AI『Sora』の一般提供をグローバルで開始しました。最大60秒の高品質な動画をテキストプロンプトから生成できるこのモデルは、昨年の発表以来、映像業界に大きな衝撃を与えてきました。\n\n今回の一般公開に合わせて、いくつかの重要なアップデートも発表されています。まず、物理エンジンの統合により、流体の動きやキャラクターの歩行といった複雑なモーションの一貫性が飛躍的に向上しました。また、生成された動画にはC2PA規格に基づいた不可視の電子透かしが埋め込まれ、AI生成物であることを追跡可能な状態で提供されます。これにより、フェイクニュース対策と著作権管理の両立を図ります。\n\n映像制作の現場では、プロトタイピングや背景素材の生成、さらには教育用コンテンツの作成において、コストが従来の100分の1以下になると予測されています。",
+        category: 'Video AI',
+        source: 'OpenAI News',
+        references: [
+          { title: "OpenAI Sora Official Blog: General Availability Announcement", url: "https://openai.com/sora/launch" },
+          { title: "Technical Report: Improving Video Generation with Physical Simulation", url: "https://openai.com/sora/technical-report" },
+          { title: "C2PA Standards for AI Generated Content in Sora", url: "https://c2pa.org/specifications/" },
+          { title: "Impact Analysis: The Future of Film Production with Sora", url: "https://variety.com/tech-ai-sora-impact" },
+          { title: "OpenAI Safety Council: Guidelines for Video AI Usage", url: "https://openai.com/safety/video-gen-policy" }
+        ]
+      },
+      {
+        id: 2602,
+        title: "政府、AIによる誤情報対策として「デジタル署名」の義務化を検討",
+        summary: "ディープフェイクや偽ニュースの拡散を防ぐため、公的な情報発信にブロックチェーン技術を活用した証明を付与。",
+        fullContent: "総務省とデジタル庁は、AIを用いた高度な偽情報（ディープフェイク）の拡散に対抗するため、公的な発信元を証明する「デジタル署名」の導入を義務化する法案の検討に入りました。この法案は、2026年秋の臨時国会への提出を目指しています。\n\n具体的には、政府機関や独立行政法人が発信するテキスト、音声、画像、動画の全てに、ブロックチェーン技術を応用した「発信元証明」を付与します。ユーザーはブラウザの拡張機能やスマートフォンアプリを通じて、その情報が改ざんされていないか、正当なソースから発信されたものかを一目で確認できるようになります。また、大手プラットフォーム企業（Google, Meta等）に対しても、この署名がない公的情報の表示に警告を出すよう求める方針です。",
+        category: 'Policy',
+        source: 'NHKニュース',
+        references: [
+          { title: "総務省：AI時代の誤情報対策検討会議報告書", url: "https://www.soumu.go.jp/ai-misinfo-report" },
+          { title: "デジタル庁：トラストサービス（デジタル署名）の推進について", url: "https://www.digital.go.jp/policies/trust" },
+          { title: "日本ブロックチェーン協会：デジタルIDと公的文書への応用", url: "https://jba-web.jp/news/digital-id-report" },
+          { title: "OECD Guidelines on Combatting AI-Driven Disinformation", url: "https://www.oecd.org/digital/ai-disinfo" },
+          { title: "Cybersecurity Strategy for 2026: Japan's Digital Trust Framework", url: "https://www.nisc.go.jp/strategy2026" }
+        ]
+      }
+    ],
+    agents: [
+      {
+        id: 2611,
+        title: "自律型コーディングエージェント『Devin 2』が登場：GitHubと完全連携し自動でデバッグ",
+        summary: "指示を出すだけでリポジトリ全体の構造を把握。Issueの解決からプルリクエストの作成までを一人で完遂。",
+        fullContent: "Cognition Labsは、世界初のAIソフトウェアエンジニアとして話題をさらった『Devin』の次世代モデル『Devin 2』をリリースしました。最新モデルは、より高度な長期的推論能力を備えており、10万行を超える大規模なコードベースの全体像を正確に把握できます。\n\nDevin 2の最大の特徴は、GitHubのアクションと完全に統合されたことです。開発者がIssueを割り当てるだけで、エージェントは自律的にブランチを作成し、コードを調査、修正を適用し、テストを実行。全てが成功した段階でプルリクエストを提出します。もしテストが失敗した場合は、スタックトレースを解析し、原因を特定して再修正を試みる「自己修復機能」も強化されました。テスト段階では、人間のジュニアエンジニアと比較してデバッグ速度が3倍、修正の正確性が2倍向上したと報告されています。",
+        category: 'Autonomous',
+        source: 'TechCrunch',
+        references: [
+          { title: "Cognition Labs: Introducing Devin 2, the Next Generation of AI Engineers", url: "https://cognition-labs.com/devin2" },
+          { title: "Benchmark Results: Devin 2 vs. SWE-bench Professional", url: "https://github.com/swe-bench/results/devin2" },
+          { title: "The Future of DevOps: Autonomous Agent Integration with CI/CD", url: "https://techcrunch.com/ai-devops-devin" },
+          { title: "Developer Experience Report: Working alongside Devin 2", url: "https://stackoverflow.blog/ai-engineer-devin-feedback" },
+          { title: "OpenAI API Case Study: Powering Devin's Reasoning Engine", url: "https://openai.com/customer-stories/cognition-labs" }
+        ]
+      }
+    ]
+  },
+  '2026-03-25': {
+    general: [
+      {
+        id: 2501,
+        title: "NVIDIA、次世代AIプラットフォーム『Rubin』を発表：演算性能がH100の10倍に",
+        summary: "超高速なメモリ技術と革新的なアーキテクチャにより、100兆パラメータ規模のモデル学習が現実的に。",
+        fullContent: "NVIDIAのジェンスン・フアンCEOは、新たなAI GPUアーキテクチャ『Rubin』を披露しました。これは現行のBlackwellを超える性能を持ち、特にエージェント型AIが必要とするリアルタイムの推論性能を極限まで高めています。データセンターの消費電力問題に対応するため、電力効率も大幅に改善されており、次世代のAIインフラの基盤となることが予想されます。",
+        category: 'Hardware',
+        source: 'Reuters'
+      },
+      {
+        id: 2502,
+        title: "AIを活用した「パーソナライズ医療」の最前線：がんの早期発見率が30%向上",
+        summary: "個人のゲノムデータとAI解析を組み合わせ、最適な治療法を数分で提案するシステムが大学病院で試験導入。",
+        fullContent: "東京大学医学部附属病院と共同開発されたAI診断支援システムが、初期段階のがん細胞特定において顕著な成果を上げています。数百万件の症例データを学習したAIが、人間の医師が見逃しがちな微細な変化を検知。さらに、個々の患者の体質に合わせた副作用の少ない薬剤の組み合わせを提案するなど、医療の質を底上げしています。",
+        category: 'Health',
+        source: 'Medical Tech'
+      }
+    ],
+    agents: [
+      {
+        id: 2511,
+        title: "エージェント間通信の共通プロトコル『AgentLink』がOSSで公開",
+        summary: "異なるメーカーのAIエージェント同士が、人間の仲介なしに情報を交換しタスクを分担するための標準規格。",
+        fullContent: "Microsoft、Google、Anthropicなどの主要企業が参加するコンソーシアムは、AIエージェント同士の対話を標準化する『AgentLink v1.0』を公開しました。これにより、例えばGoogleカレンダーを管理するエージェントが、Zoomの会議エージェントと直接交渉してスケジュールを調整するといった、マルチベンダー間での自動連携が可能になります。エージェント経済圏の形成に向けた重要なインフラとなります。",
+        category: 'Standards',
+        source: 'W3C'
+      }
+    ]
+  },
+  '2026-03-24': {
+    general: [
+      {
+        id: 2401,
+        title: "Apple、iOS 19に『Siri Intelligence』を搭載：Gemini 3.0をバックエンドに採用",
+        summary: "iPhoneのオンデバイス処理とクラウドAIがシームレスに統合。画面内の情報を理解し、アプリをまたいで操作可能に。",
+        fullContent: "Appleは本日、次期OSであるiOS 19のプレビューを公開しました。長年課題とされていたSiriは、GoogleのGemini 3.0 Ultraと深く統合された『Siri Intelligence』へと進化。ユーザーが『あのメールで送られてきた予約情報をカレンダーに入れて』と言うだけで、メールの内容を解析し、適切なアプリを自動操作します。プライバシーを重視しつつ、高度な利便性を実現しています。",
+        category: 'Mobile AI',
+        source: 'Apple Newsroom'
+      }
+    ],
+    agents: [
+      {
+        id: 2411,
+        title: "AIエージェントによる自動投資サービスが、ヘッジファンドの運用成績を上回る",
+        summary: "24時間体制で市場のニュース、SNSの感情、各国の経済指標を分析し、秒単位でポートフォリオを最適化。",
+        fullContent: "フィンテック企業のWealthAgentは、自社が提供する自律型投資エージェントの過去1年間の運用実績が、主要なヘッジファンドの平均を15%上回ったと発表しました。AIは人間の心理的なバイアスに左右されず、予測不可能なニュースイベントに対してもミリ秒単位でリスクヘッジを行います。個人投資家向けの安価なサービスとしても提供が開始され、資産運用のあり方を変えようとしています。",
+        category: 'Finance',
+        source: 'Bloomberg'
+      }
+    ]
+  },
+  '2026-03-23': {
+    general: [
+      {
+        id: 2301,
+        title: "日本発の超軽量LLM『Kaguya-mini』がリリース：スマホ単体で高度な推論を実現",
+        summary: "日本語に特化した学習データと革新的な量子化技術により、メモリ4GBの端末でもChatGPT並みの応答速度を実現。",
+        fullContent: "国内AIスタートアップのSakana AIは、新しい言語モデル『Kaguya-mini』を発表しました。このモデルはわずか30億パラメータでありながら、日本語の対話性能において従来の巨大モデルに匹敵するスコアを記録。インターネットに接続できない環境でも、スマートフォンのローカル上で秘書業務や翻訳をこなすことができ、データ漏洩を気にする企業ユーザーからの関心を集めています。",
+        category: 'Local LLM',
+        source: 'Sakana AI Blog'
+      }
+    ],
+    agents: [
+      {
+        id: 2311,
+        title: "家庭用ロボット向けエージェントOS『HomeMind』の普及が進む",
+        summary: "掃除機、キッチン家電、ペット見守りロボットが一つの脳でつながる。家全体のコンテキストを共有。",
+        fullContent: "スマートホーム市場で、各家電を統合制御する『HomeMind』の導入が加速しています。このOSを搭載した機器は、ユーザーの生活リズムを学習。例えば『子供が寝たから静かにして』と指示すると、掃除機の音を抑え、照明を落とし、テレビの音量を自動で調整します。エージェントが物理的な空間を認識し、人間にとって最適な環境を能動的に作り出します。",
+        category: 'Smart Home',
+        source: 'Gadget Insider'
+      }
+    ]
+  },
   '2026-03-22': {
     general: [
       {

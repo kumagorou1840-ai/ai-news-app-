@@ -60,8 +60,25 @@ const NewsDetail: React.FC<{ item: NewsItem; date: string; onBack: () => void }>
         <span>公開日: {formattedDate}</span>
       </div>
       <div className="detail-content">
-        <p>{item.fullContent}</p>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{item.fullContent}</p>
       </div>
+
+      {item.references && item.references.length > 0 && (
+        <div className="references-section">
+          <h3>🔍 参考資料・関連リンク</h3>
+          <ul className="reference-list">
+            {item.references.map((ref, idx) => (
+              <li key={idx}>
+                <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                  <ExternalLink size={14} style={{ marginRight: '5px' }} />
+                  {ref.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="detail-footer">
         <p>この記事をシェアする</p>
         <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
@@ -76,24 +93,36 @@ const NewsDetail: React.FC<{ item: NewsItem; date: string; onBack: () => void }>
 const App: React.FC = () => {
   const availableDates = Object.keys(newsDatabase).sort().reverse();
   const [currentDate, setCurrentDate] = useState<string>(availableDates[0] || '');
-  const [newsletterType, setNewsletterType] = useState<NewsletterType>('general');
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
 
-  const currentDailyData = newsDatabase[currentDate];
-  const currentNews = currentDailyData ? currentDailyData[newsletterType] : [];
+  // 指定された日付とその前の日付から記事を収集し、最大10件程度にする
+  const getCombinedNews = () => {
+    let items: NewsItem[] = [];
+    const dateIndex = availableDates.indexOf(currentDate);
+    
+    // 現在の日の記事を追加
+    if (dateIndex !== -1) {
+      const dayData = newsDatabase[availableDates[dateIndex]];
+      items = [...dayData.general, ...dayData.agents];
+    }
+    
+    // 10件に満たない場合、過去の日付からも補充する
+    let nextIndex = dateIndex + 1;
+    while (items.length < 10 && nextIndex < availableDates.length) {
+      const prevDayData = newsDatabase[availableDates[nextIndex]];
+      items = [...items, ...prevDayData.general, ...prevDayData.agents];
+      nextIndex++;
+    }
+    
+    return items.slice(0, 12); // 最大12件程度表示
+  };
 
-  const briefing = newsletterType === 'general' 
-    ? "主要企業がモデルの巨大化からニューラル圧縮やエッジベースのマルチモーダル機能へとシフトする中、効率性とアクセシビリティが今日のAIトレンドの中心となっています。"
-    : "「チャット」から「アクション」へ。自律的にタスクを遂行し、エージェント同士が連携する『エージェント経済圏』の加速を鮮明に映し出しています。";
+  const allNewsItems = getCombinedNews();
+
+  const briefing = "主要企業がモデルの巨大化からニューラル圧縮やエッジベースのマルチモーダル機能へとシフトする中、効率性とアクセシビリティが今日のAIトレンドの中心となっています。また、自律的にタスクを遂行し、エージェント同士が連携する『エージェント経済圏』の加速を鮮明に映し出しています。";
 
   const handleDateChange = (date: string) => {
     setCurrentDate(date);
-    setSelectedNews(null);
-    window.scrollTo(0, 0);
-  };
-
-  const handleTypeChange = (type: NewsletterType) => {
-    setNewsletterType(type);
     setSelectedNews(null);
     window.scrollTo(0, 0);
   };
@@ -114,21 +143,6 @@ const App: React.FC = () => {
               </button>
             ))}
           </nav>
-
-          <nav className="newsletter-nav">
-            <button 
-              className={`nav-item ${newsletterType === 'general' ? 'active' : ''}`}
-              onClick={() => handleTypeChange('general')}
-            >
-              <Newspaper size={18} /> 総合ニュース
-            </button>
-            <button 
-              className={`nav-item ${newsletterType === 'agents' ? 'active' : ''}`}
-              onClick={() => handleTypeChange('agents')}
-            >
-              <Bot size={18} /> エージェント
-            </button>
-          </nav>
         </>
       )}
 
@@ -136,7 +150,7 @@ const App: React.FC = () => {
         <NewsDetail item={selectedNews} date={currentDate} onBack={() => setSelectedNews(null)} />
       ) : (
         <>
-          <Header type={newsletterType} date={currentDate} />
+          <Header type="general" date={currentDate} />
           
           <section className="daily-insight">
             <h2>今日のブリーフィング</h2>
@@ -144,7 +158,7 @@ const App: React.FC = () => {
           </section>
 
           <main>
-            {currentNews.length > 0 ? currentNews.map((item, index) => (
+            {allNewsItems.length > 0 ? allNewsItems.map((item, index) => (
               <NewsItemCard 
                 key={item.id} 
                 item={item} 
@@ -167,7 +181,7 @@ const App: React.FC = () => {
               <Mail size={20} cursor="pointer" title="購読" />
               <ExternalLink size={20} cursor="pointer" title="アーカイブ" />
             </div>
-            <p>&copy; 2026 {newsletterType === 'general' ? 'AI News Daily' : 'AI Agents Daily'}. 無断複写・転載を禁じます。</p>
+            <p>&copy; 2026 AI News Network. 無断複写・転載を禁じます。</p>
             <p style={{ fontSize: '0.7rem', marginTop: '10px' }}>
               このメールは AI News Network の購読者に配信されています。 
               <a href="#" style={{ color: 'inherit', marginLeft: '10px' }}>配信停止はこちら</a>
