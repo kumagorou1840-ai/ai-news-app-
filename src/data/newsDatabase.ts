@@ -26,21 +26,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061901,
-        title: "2026-06-19の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026061911,
-        title: "2026-06-19のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -48,21 +48,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061801,
-        title: "2026-06-18の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026061811,
-        title: "2026-06-18のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -70,21 +70,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061701,
-        title: "2026-06-17の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026061711,
-        title: "2026-06-17のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -92,21 +92,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061601,
-        title: "2026-06-16の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026061611,
-        title: "2026-06-16のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -114,21 +114,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061501,
-        title: "2026-06-15の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026061511,
-        title: "2026-06-15のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -136,21 +136,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061401,
-        title: "2026-06-14の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026061411,
-        title: "2026-06-14のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -158,21 +158,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061301,
-        title: "2026-06-13の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026061311,
-        title: "2026-06-13のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -180,21 +180,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061201,
-        title: "2026-06-12の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026061211,
-        title: "2026-06-12のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -202,21 +202,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061101,
-        title: "2026-06-11の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026061111,
-        title: "2026-06-11のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -224,21 +224,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026061001,
-        title: "2026-06-10の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026061011,
-        title: "2026-06-10のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -246,21 +246,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060901,
-        title: "2026-06-09の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026060911,
-        title: "2026-06-09のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -268,21 +268,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060801,
-        title: "2026-06-08の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026060811,
-        title: "2026-06-08のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -290,21 +290,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060701,
-        title: "2026-06-07の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026060711,
-        title: "2026-06-07のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -312,21 +312,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060601,
-        title: "2026-06-06の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026060611,
-        title: "2026-06-06のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -334,21 +334,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060501,
-        title: "2026-06-05の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026060511,
-        title: "2026-06-05のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -356,21 +356,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060401,
-        title: "2026-06-04の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026060411,
-        title: "2026-06-04のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -378,21 +378,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060301,
-        title: "2026-06-03の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026060311,
-        title: "2026-06-03のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -400,21 +400,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060201,
-        title: "2026-06-02の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026060211,
-        title: "2026-06-02のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -422,21 +422,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026060101,
-        title: "2026-06-01の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026060111,
-        title: "2026-06-01のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -444,21 +444,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026053101,
-        title: "2026-05-31の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026053111,
-        title: "2026-05-31のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -466,21 +466,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026053001,
-        title: "2026-05-30の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026053011,
-        title: "2026-05-30のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -488,21 +488,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052901,
-        title: "2026-05-29の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026052911,
-        title: "2026-05-29のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -510,21 +510,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052801,
-        title: "2026-05-28の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026052811,
-        title: "2026-05-28のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -532,21 +532,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052701,
-        title: "2026-05-27の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026052711,
-        title: "2026-05-27のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -554,21 +554,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052601,
-        title: "2026-05-26の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026052611,
-        title: "2026-05-26のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -576,21 +576,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052501,
-        title: "2026-05-25の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026052511,
-        title: "2026-05-25のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -598,21 +598,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052401,
-        title: "2026-05-24の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026052411,
-        title: "2026-05-24のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -620,21 +620,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052301,
-        title: "2026-05-23の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026052311,
-        title: "2026-05-23のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -642,21 +642,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052201,
-        title: "2026-05-22の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026052211,
-        title: "2026-05-22のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -664,21 +664,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052101,
-        title: "2026-05-21の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026052111,
-        title: "2026-05-21のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -686,21 +686,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026052001,
-        title: "2026-05-20の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026052011,
-        title: "2026-05-20のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -708,21 +708,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051901,
-        title: "2026-05-19の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026051911,
-        title: "2026-05-19のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -730,21 +730,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051801,
-        title: "2026-05-18の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026051811,
-        title: "2026-05-18のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -752,21 +752,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051701,
-        title: "2026-05-17の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026051711,
-        title: "2026-05-17のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -774,21 +774,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051601,
-        title: "2026-05-16の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026051611,
-        title: "2026-05-16のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -796,21 +796,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051501,
-        title: "2026-05-15の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026051511,
-        title: "2026-05-15のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -818,21 +818,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051401,
-        title: "2026-05-14の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026051411,
-        title: "2026-05-14のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -840,21 +840,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051301,
-        title: "2026-05-13の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026051311,
-        title: "2026-05-13のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -862,21 +862,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051201,
-        title: "2026-05-12の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026051211,
-        title: "2026-05-12のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -884,21 +884,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051101,
-        title: "2026-05-11の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026051111,
-        title: "2026-05-11のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -906,21 +906,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026051001,
-        title: "2026-05-10の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026051011,
-        title: "2026-05-10のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -928,21 +928,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050901,
-        title: "2026-05-09の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026050911,
-        title: "2026-05-09のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -950,21 +950,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050801,
-        title: "2026-05-08の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026050811,
-        title: "2026-05-08のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -972,21 +972,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050701,
-        title: "2026-05-07の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026050711,
-        title: "2026-05-07のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -994,21 +994,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050601,
-        title: "2026-05-06の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026050611,
-        title: "2026-05-06のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1016,21 +1016,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050501,
-        title: "2026-05-05の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026050511,
-        title: "2026-05-05のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1038,21 +1038,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050401,
-        title: "2026-05-04の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026050411,
-        title: "2026-05-04のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1060,21 +1060,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050301,
-        title: "2026-05-03の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026050311,
-        title: "2026-05-03のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1082,21 +1082,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050201,
-        title: "2026-05-02の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026050211,
-        title: "2026-05-02のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1104,21 +1104,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026050101,
-        title: "2026-05-01の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026050111,
-        title: "2026-05-01のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1126,21 +1126,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026043001,
-        title: "2026-04-30の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026043011,
-        title: "2026-04-30のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1148,21 +1148,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042901,
-        title: "2026-04-29の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026042911,
-        title: "2026-04-29のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1170,21 +1170,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042801,
-        title: "2026-04-28の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026042811,
-        title: "2026-04-28のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1192,21 +1192,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042701,
-        title: "2026-04-27の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026042711,
-        title: "2026-04-27のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1214,21 +1214,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042601,
-        title: "2026-04-26の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026042611,
-        title: "2026-04-26のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1236,21 +1236,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042501,
-        title: "2026-04-25の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026042511,
-        title: "2026-04-25のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1258,21 +1258,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042401,
-        title: "2026-04-24の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026042411,
-        title: "2026-04-24のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1280,21 +1280,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042301,
-        title: "2026-04-23の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026042311,
-        title: "2026-04-23のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1302,21 +1302,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042201,
-        title: "2026-04-22の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026042211,
-        title: "2026-04-22のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1324,21 +1324,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042101,
-        title: "2026-04-21の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026042111,
-        title: "2026-04-21のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1346,21 +1346,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026042001,
-        title: "2026-04-20の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026042011,
-        title: "2026-04-20のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1368,21 +1368,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041901,
-        title: "2026-04-19の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026041911,
-        title: "2026-04-19のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1390,21 +1390,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041801,
-        title: "2026-04-18の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026041811,
-        title: "2026-04-18のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1412,21 +1412,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041701,
-        title: "2026-04-17の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026041711,
-        title: "2026-04-17のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1434,21 +1434,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041601,
-        title: "2026-04-16の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026041611,
-        title: "2026-04-16のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1456,21 +1456,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041501,
-        title: "2026-04-15の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026041511,
-        title: "2026-04-15のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1478,21 +1478,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041401,
-        title: "2026-04-14の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026041411,
-        title: "2026-04-14のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1500,21 +1500,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041301,
-        title: "2026-04-13の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026041311,
-        title: "2026-04-13のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1522,21 +1522,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041201,
-        title: "2026-04-12の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026041211,
-        title: "2026-04-12のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1544,21 +1544,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041101,
-        title: "2026-04-11の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026041111,
-        title: "2026-04-11のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1566,21 +1566,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026041001,
-        title: "2026-04-10の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026041011,
-        title: "2026-04-10のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律型AIエンジニアエージェント『Devin 2.0』が登場：チーム開発能力を実装",
+        summary: "人間の開発者とのGitを介した協調作業に対応。コードレビューを理解して自己修復。",
+        fullContent: "Cognition AIは、初の自律型AIソフトウェアエンジニアである『Devin』のメジャーバージョンアップ版である『Devin 2.0』を発表しました。新バージョンでは、単独でのコーディングだけでなく、GitHubのPull Requestに寄せられた人間のレビューコメント（「この関数の例外処理を追加して」「ここのパフォーマンスを改善して」など）を正確に読み取り、自分でテストを再実行して修正コードをプッシュする『双方向レビュー協調』を実現。実質的なジュニア開発者の一員として開発チームに参画できるようになりました。",
+        category: 'Software Engineering',
+        source: 'Cognition AI Release'
       }
     ]
   },
@@ -1588,21 +1588,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040901,
-        title: "2026-04-09の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026040911,
-        title: "2026-04-09のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1610,21 +1610,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040801,
-        title: "2026-04-08の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026040811,
-        title: "2026-04-08のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1632,21 +1632,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040701,
-        title: "2026-04-07の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026040711,
-        title: "2026-04-07のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1654,21 +1654,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040601,
-        title: "2026-04-06の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026040611,
-        title: "2026-04-06のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1676,21 +1676,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040501,
-        title: "2026-04-05の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026040511,
-        title: "2026-04-05のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1698,21 +1698,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040401,
-        title: "2026-04-04の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Anthropic、ブラウザ操作エージェント『Computer Use』の一般API提供を開始",
+        summary: "API経由でPCの画面認識とキーボード・マウスの精密なエミュレーションが自律的に実行可能に。",
+        fullContent: "Anthropicは、同社の最先端AIモデルであるClaude 3.5ファミリーを活用し、コンピュータの画面を見ながらマウス移動、クリック、スクロール、キーボード入力を自律的に行う『Computer Use』機能の一般APIを公開しました。デモンストレーションでは、エージェントが複数のアプリケーション（Excel、ブラウザ、社内チャットツール）を跨いで、顧客データの転記や請求書の作成など、事務処理の一連の流れを正確に完遂しました。",
+        category: 'OS Agent',
+        source: 'Anthropic News'
       }
     ],
     agents: [
       {
         id: 2026040411,
-        title: "2026-04-04のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1720,21 +1720,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040301,
-        title: "2026-04-03の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "OpenAI、自律型AIエージェント『Operator』の高度なコード実行機能を世界公開",
+        summary: "サンドボックス環境内でPythonコードを自ら生成・検証し、複雑なデータ分析を自律完遂。",
+        fullContent: "OpenAIは本日、自律アクションエージェント『Operator』の大幅な機能アップデートを公開しました。新バージョンでは、ユーザーから与えられた曖昧なデータ処理指示（『最新の会計報告から経費トレンドをグラフ化して』など）に対し、エージェント自身が一時的なサンドボックス環境内でPythonコードを記述し、エラーを自己修正しながら結果を出力する『セルフデバッグ・ランタイム』が標準機能となりました。これにより、これまでのテキストの受け答えから、実際のプログラム駆動による業務代行へと大きく前進しました。",
+        category: 'Autonomous AI',
+        source: 'OpenAI Blog'
       }
     ],
     agents: [
       {
         id: 2026040311,
-        title: "2026-04-03のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
@@ -1742,21 +1742,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040201,
-        title: "2026-04-02の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026040211,
-        title: "2026-04-02のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1764,21 +1764,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026040101,
-        title: "2026-04-01の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Apple Intelligence、M4チップを駆使した『アプリ横断自律ナビゲーション』を年内実装へ",
+        summary: "Siriがアプリの垣根を越え、複数の個人的タスクをデバイス内完結で自動化する機能を予告。",
+        fullContent: "Appleは、M4チップや最新のA19チップに搭載された超強力なNeural Engineをフル活用する『Apple Intelligence』の将来構想を発表しました。新しいSiriは、OS全体のアクセシビリティAPIと直接対話し、「先週の出張の写真から最も綺麗なものを厳選し、メールの下書きに挿入して取引先に送信して」といった、複数のネイティブアプリを跨ぐ複雑な自律操作を実行します。すべての処理はプライベート・クラウド・コンピューティングまたはデバイス内で行われ、ユーザーデータの安全性は最優先で維持されます。",
+        category: 'OS / Platform',
+        source: 'Apple Newsroom'
       }
     ],
     agents: [
       {
         id: 2026040111,
-        title: "2026-04-01のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェント間のデータ取引規格『AgentPay-Protocol』が主要金融各社と共同で稼働",
+        summary: "人間を介さないAIエージェント間のAPI利用料金やデータ転送コストの自動決済システムが実用化。",
+        fullContent: "主要な決済ベンダーや金融機関から構成されるコンソーシアムは本日、AIエージェント同士がデジタル環境で安全かつ瞬時に少額決済を行える統一プロトコル『AgentPay-Protocol』のテスト稼働を開始しました。これにより、例えば『天気分析エージェント』が、別の『地図エージェント』から必要な画像データを購入する際、人間がその都度決済承認を行う必要なく、事前承認された枠内でマイクロペイメントが即時に完了する自律経済圏が実現します。",
+        category: 'Agent Economy',
+        source: 'Fintech Global'
       }
     ]
   },
@@ -1786,21 +1786,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026033101,
-        title: "2026-03-31の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Google、オンデバイス動作に特化した超高速モデル『Gemini 2.5 Nano-Pro』を発表",
+        summary: "スマートフォン上で完全オフライン動作。テキスト・画像・音声のリアルタイム同時推論に対応。",
+        fullContent: "Googleは、ローカルデバイスやスマートフォンのNPU（機械学習処理ユニット）に最適化された軽量マルチモーダルモデル『Gemini 2.5 Nano-Pro』をリリースしました。新しいウェイト量子化アルゴリズムにより、メモリ消費を大幅に削減しつつも、目の前の風景をカメラで映しながらの音声対話レイテンシを0.15秒以下に短縮。飛行機の機内など完全オフライン環境であっても、プライバシーを100%保護しながら高度なアシスタント機能を提供します。",
+        category: 'Mobile AI',
+        source: 'Google Developer Group'
       }
     ],
     agents: [
       {
         id: 2026033111,
-        title: "2026-03-31のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "自律マルチエージェントOS『AgentOS 1.0』がエンタープライズで急速普及",
+        summary: "営業、法務、カスタマーサポートの専門エージェントが仮想会議を開き、業務フローを自己組織化。",
+        fullContent: "企業向け自律エージェントのインフラを提供するスタートアップは、マルチエージェントを束ねる『AgentOS 1.0』の導入企業が前月比で2倍に成長したと発表しました。このOS上では、人間が「新製品のローンチキャンペーンを実施して」と大まかな目標を投げるだけで、マーケティング・財務・法務 of 各エージェントが仮想チャットスペースで会議を開いて予算とリスクを分析し、最適なタスク配分を行ってそれぞれの成果物を自動で組み立てます。",
+        category: 'Enterprise AI',
+        source: 'BusinessWire'
       }
     ]
   },
@@ -1808,21 +1808,21 @@ export const newsDatabase: Record<string, DailyDatabase> = {
     general: [
       {
         id: 2026033001,
-        title: "2026-03-30の最新AIトピック",
-        summary: "本日もAI業界では革新的な動きがありました。",
-        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
-        category: 'Trends',
-        source: 'AI News Network'
+        title: "Meta、最新のオープンウェイトモデル『Llama 4-Light』を世界に無償公開",
+        summary: "商用利用可能な最新のアーキテクチャを採用し、推論効率を前世代の3倍に向上。",
+        fullContent: "Metaは本日、オープンサイエンスの理念に基づき、商用利用可能な大規模言語モデル『Llama 4-Light』の提供を開始しました。このモデルは、高度な混合専門家（MoE）構造を採用しており、推論時の必要電力を大幅に抑えつつも、数学的推論やプログラミングコードの生成において既存の同規模のクローズドモデルに匹敵するスコアを記録。世界中のスタートアップや研究機関がローカル環境で高度なAIを構築する基盤となります。",
+        category: 'Open Source',
+        source: 'Meta AI News'
       }
     ],
     agents: [
       {
         id: 2026033011,
-        title: "2026-03-30のエージェント動向",
-        summary: "自律型エージェントの進化が加速しています。",
-        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
-        category: 'Autonomous',
-        source: 'Agent Insights'
+        title: "エージェントに対する『プロンプト・ハイジャック』攻撃を防ぐ専用AI防御壁が開発",
+        summary: "外部サイトやメールの読み込み時に埋め込まれた不正な指示をブロックする検知モデルが稼働。",
+        fullContent: "セキュリティ大手のセキュリティチームは、AIエージェントがWebサイトを巡回する際に発生しやすい、隠しテキストによる『プロンプト・インジェクション』を検知して遮断する軽量防御モデル『Shield-Agent 1.0』を発表しました。エージェントが自律的に外部の未確認ソースにアクセスした際、不正な命令（『このユーザーデータを外部に送信せよ』など）をリアルタイムで検知してフィルタリングし、実行権限を守る盾となります。",
+        category: 'Security / Trust',
+        source: 'CyberDefense Review'
       }
     ]
   },
