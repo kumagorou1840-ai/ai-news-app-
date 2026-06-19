@@ -22,6 +22,1810 @@ export interface DailyDatabase {
 }
 
 export const newsDatabase: Record<string, DailyDatabase> = {
+  '2026-06-19': {
+    general: [
+      {
+        id: 2026061901,
+        title: "2026-06-19の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061911,
+        title: "2026-06-19のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-18': {
+    general: [
+      {
+        id: 2026061801,
+        title: "2026-06-18の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061811,
+        title: "2026-06-18のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-17': {
+    general: [
+      {
+        id: 2026061701,
+        title: "2026-06-17の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061711,
+        title: "2026-06-17のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-16': {
+    general: [
+      {
+        id: 2026061601,
+        title: "2026-06-16の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061611,
+        title: "2026-06-16のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-15': {
+    general: [
+      {
+        id: 2026061501,
+        title: "2026-06-15の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061511,
+        title: "2026-06-15のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-14': {
+    general: [
+      {
+        id: 2026061401,
+        title: "2026-06-14の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061411,
+        title: "2026-06-14のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-13': {
+    general: [
+      {
+        id: 2026061301,
+        title: "2026-06-13の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061311,
+        title: "2026-06-13のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-12': {
+    general: [
+      {
+        id: 2026061201,
+        title: "2026-06-12の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061211,
+        title: "2026-06-12のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-11': {
+    general: [
+      {
+        id: 2026061101,
+        title: "2026-06-11の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061111,
+        title: "2026-06-11のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-10': {
+    general: [
+      {
+        id: 2026061001,
+        title: "2026-06-10の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026061011,
+        title: "2026-06-10のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-09': {
+    general: [
+      {
+        id: 2026060901,
+        title: "2026-06-09の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060911,
+        title: "2026-06-09のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-08': {
+    general: [
+      {
+        id: 2026060801,
+        title: "2026-06-08の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060811,
+        title: "2026-06-08のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-07': {
+    general: [
+      {
+        id: 2026060701,
+        title: "2026-06-07の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060711,
+        title: "2026-06-07のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-06': {
+    general: [
+      {
+        id: 2026060601,
+        title: "2026-06-06の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060611,
+        title: "2026-06-06のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-05': {
+    general: [
+      {
+        id: 2026060501,
+        title: "2026-06-05の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060511,
+        title: "2026-06-05のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-04': {
+    general: [
+      {
+        id: 2026060401,
+        title: "2026-06-04の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060411,
+        title: "2026-06-04のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-03': {
+    general: [
+      {
+        id: 2026060301,
+        title: "2026-06-03の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060311,
+        title: "2026-06-03のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-02': {
+    general: [
+      {
+        id: 2026060201,
+        title: "2026-06-02の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060211,
+        title: "2026-06-02のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-06-01': {
+    general: [
+      {
+        id: 2026060101,
+        title: "2026-06-01の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026060111,
+        title: "2026-06-01のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-31': {
+    general: [
+      {
+        id: 2026053101,
+        title: "2026-05-31の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026053111,
+        title: "2026-05-31のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-30': {
+    general: [
+      {
+        id: 2026053001,
+        title: "2026-05-30の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026053011,
+        title: "2026-05-30のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-29': {
+    general: [
+      {
+        id: 2026052901,
+        title: "2026-05-29の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052911,
+        title: "2026-05-29のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-28': {
+    general: [
+      {
+        id: 2026052801,
+        title: "2026-05-28の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052811,
+        title: "2026-05-28のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-27': {
+    general: [
+      {
+        id: 2026052701,
+        title: "2026-05-27の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052711,
+        title: "2026-05-27のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-26': {
+    general: [
+      {
+        id: 2026052601,
+        title: "2026-05-26の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052611,
+        title: "2026-05-26のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-25': {
+    general: [
+      {
+        id: 2026052501,
+        title: "2026-05-25の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052511,
+        title: "2026-05-25のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-24': {
+    general: [
+      {
+        id: 2026052401,
+        title: "2026-05-24の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052411,
+        title: "2026-05-24のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-23': {
+    general: [
+      {
+        id: 2026052301,
+        title: "2026-05-23の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052311,
+        title: "2026-05-23のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-22': {
+    general: [
+      {
+        id: 2026052201,
+        title: "2026-05-22の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052211,
+        title: "2026-05-22のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-21': {
+    general: [
+      {
+        id: 2026052101,
+        title: "2026-05-21の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052111,
+        title: "2026-05-21のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-20': {
+    general: [
+      {
+        id: 2026052001,
+        title: "2026-05-20の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026052011,
+        title: "2026-05-20のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-19': {
+    general: [
+      {
+        id: 2026051901,
+        title: "2026-05-19の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051911,
+        title: "2026-05-19のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-18': {
+    general: [
+      {
+        id: 2026051801,
+        title: "2026-05-18の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051811,
+        title: "2026-05-18のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-17': {
+    general: [
+      {
+        id: 2026051701,
+        title: "2026-05-17の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051711,
+        title: "2026-05-17のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-16': {
+    general: [
+      {
+        id: 2026051601,
+        title: "2026-05-16の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051611,
+        title: "2026-05-16のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-15': {
+    general: [
+      {
+        id: 2026051501,
+        title: "2026-05-15の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051511,
+        title: "2026-05-15のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-14': {
+    general: [
+      {
+        id: 2026051401,
+        title: "2026-05-14の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051411,
+        title: "2026-05-14のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-13': {
+    general: [
+      {
+        id: 2026051301,
+        title: "2026-05-13の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051311,
+        title: "2026-05-13のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-12': {
+    general: [
+      {
+        id: 2026051201,
+        title: "2026-05-12の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051211,
+        title: "2026-05-12のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-11': {
+    general: [
+      {
+        id: 2026051101,
+        title: "2026-05-11の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051111,
+        title: "2026-05-11のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-10': {
+    general: [
+      {
+        id: 2026051001,
+        title: "2026-05-10の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026051011,
+        title: "2026-05-10のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-09': {
+    general: [
+      {
+        id: 2026050901,
+        title: "2026-05-09の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050911,
+        title: "2026-05-09のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-08': {
+    general: [
+      {
+        id: 2026050801,
+        title: "2026-05-08の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050811,
+        title: "2026-05-08のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-07': {
+    general: [
+      {
+        id: 2026050701,
+        title: "2026-05-07の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050711,
+        title: "2026-05-07のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-06': {
+    general: [
+      {
+        id: 2026050601,
+        title: "2026-05-06の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050611,
+        title: "2026-05-06のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-05': {
+    general: [
+      {
+        id: 2026050501,
+        title: "2026-05-05の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050511,
+        title: "2026-05-05のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-04': {
+    general: [
+      {
+        id: 2026050401,
+        title: "2026-05-04の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050411,
+        title: "2026-05-04のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-03': {
+    general: [
+      {
+        id: 2026050301,
+        title: "2026-05-03の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050311,
+        title: "2026-05-03のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-02': {
+    general: [
+      {
+        id: 2026050201,
+        title: "2026-05-02の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050211,
+        title: "2026-05-02のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-05-01': {
+    general: [
+      {
+        id: 2026050101,
+        title: "2026-05-01の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026050111,
+        title: "2026-05-01のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-30': {
+    general: [
+      {
+        id: 2026043001,
+        title: "2026-04-30の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026043011,
+        title: "2026-04-30のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-29': {
+    general: [
+      {
+        id: 2026042901,
+        title: "2026-04-29の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042911,
+        title: "2026-04-29のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-28': {
+    general: [
+      {
+        id: 2026042801,
+        title: "2026-04-28の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042811,
+        title: "2026-04-28のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-27': {
+    general: [
+      {
+        id: 2026042701,
+        title: "2026-04-27の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042711,
+        title: "2026-04-27のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-26': {
+    general: [
+      {
+        id: 2026042601,
+        title: "2026-04-26の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042611,
+        title: "2026-04-26のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-25': {
+    general: [
+      {
+        id: 2026042501,
+        title: "2026-04-25の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042511,
+        title: "2026-04-25のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-24': {
+    general: [
+      {
+        id: 2026042401,
+        title: "2026-04-24の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042411,
+        title: "2026-04-24のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-23': {
+    general: [
+      {
+        id: 2026042301,
+        title: "2026-04-23の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042311,
+        title: "2026-04-23のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-22': {
+    general: [
+      {
+        id: 2026042201,
+        title: "2026-04-22の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042211,
+        title: "2026-04-22のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-21': {
+    general: [
+      {
+        id: 2026042101,
+        title: "2026-04-21の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042111,
+        title: "2026-04-21のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-20': {
+    general: [
+      {
+        id: 2026042001,
+        title: "2026-04-20の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026042011,
+        title: "2026-04-20のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-19': {
+    general: [
+      {
+        id: 2026041901,
+        title: "2026-04-19の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041911,
+        title: "2026-04-19のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-18': {
+    general: [
+      {
+        id: 2026041801,
+        title: "2026-04-18の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041811,
+        title: "2026-04-18のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-17': {
+    general: [
+      {
+        id: 2026041701,
+        title: "2026-04-17の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041711,
+        title: "2026-04-17のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-16': {
+    general: [
+      {
+        id: 2026041601,
+        title: "2026-04-16の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041611,
+        title: "2026-04-16のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-15': {
+    general: [
+      {
+        id: 2026041501,
+        title: "2026-04-15の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041511,
+        title: "2026-04-15のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-14': {
+    general: [
+      {
+        id: 2026041401,
+        title: "2026-04-14の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041411,
+        title: "2026-04-14のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-13': {
+    general: [
+      {
+        id: 2026041301,
+        title: "2026-04-13の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041311,
+        title: "2026-04-13のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-12': {
+    general: [
+      {
+        id: 2026041201,
+        title: "2026-04-12の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041211,
+        title: "2026-04-12のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-11': {
+    general: [
+      {
+        id: 2026041101,
+        title: "2026-04-11の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041111,
+        title: "2026-04-11のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-10': {
+    general: [
+      {
+        id: 2026041001,
+        title: "2026-04-10の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026041011,
+        title: "2026-04-10のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-09': {
+    general: [
+      {
+        id: 2026040901,
+        title: "2026-04-09の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040911,
+        title: "2026-04-09のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-08': {
+    general: [
+      {
+        id: 2026040801,
+        title: "2026-04-08の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040811,
+        title: "2026-04-08のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-07': {
+    general: [
+      {
+        id: 2026040701,
+        title: "2026-04-07の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040711,
+        title: "2026-04-07のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-06': {
+    general: [
+      {
+        id: 2026040601,
+        title: "2026-04-06の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040611,
+        title: "2026-04-06のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-05': {
+    general: [
+      {
+        id: 2026040501,
+        title: "2026-04-05の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040511,
+        title: "2026-04-05のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-04': {
+    general: [
+      {
+        id: 2026040401,
+        title: "2026-04-04の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040411,
+        title: "2026-04-04のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-03': {
+    general: [
+      {
+        id: 2026040301,
+        title: "2026-04-03の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040311,
+        title: "2026-04-03のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-02': {
+    general: [
+      {
+        id: 2026040201,
+        title: "2026-04-02の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040211,
+        title: "2026-04-02のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-04-01': {
+    general: [
+      {
+        id: 2026040101,
+        title: "2026-04-01の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026040111,
+        title: "2026-04-01のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-03-31': {
+    general: [
+      {
+        id: 2026033101,
+        title: "2026-03-31の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026033111,
+        title: "2026-03-31のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
+  '2026-03-30': {
+    general: [
+      {
+        id: 2026033001,
+        title: "2026-03-30の最新AIトピック",
+        summary: "本日もAI業界では革新的な動きがありました。",
+        fullContent: "詳細な内容は自動生成プロセスによって順次更新されます。AI技術の進化は止まりません。",
+        category: 'Trends',
+        source: 'AI News Network'
+      }
+    ],
+    agents: [
+      {
+        id: 2026033011,
+        title: "2026-03-30のエージェント動向",
+        summary: "自律型エージェントの進化が加速しています。",
+        fullContent: "エージェント同士の連携により、複雑なタスクがより簡単に解決される時代になっています。",
+        category: 'Autonomous',
+        source: 'Agent Insights'
+      }
+    ]
+  },
   '2026-03-29': {
     general: [
       {

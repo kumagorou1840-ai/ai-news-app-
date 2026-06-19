@@ -82,8 +82,8 @@ const NewsDetail: React.FC<{ item: NewsItem; date: string; onBack: () => void }>
       <div className="detail-footer">
         <p>この記事をシェアする</p>
         <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
-          <Share2 size={20} cursor="pointer" />
-          <Mail size={20} cursor="pointer" />
+          <span style={{ cursor: 'pointer' }}><Share2 size={20} /></span>
+          <span style={{ cursor: 'pointer' }}><Mail size={20} /></span>
         </div>
       </div>
     </div>
@@ -130,20 +130,23 @@ const App: React.FC = () => {
   return (
     <div className="newsletter-container">
       {!selectedNews && (
-        <>
-          <nav className="date-selector">
-            <span className="date-label"><Calendar size={14} /> バックナンバー:</span>
-            {availableDates.map(date => (
-              <button 
-                key={date}
-                className={`date-btn ${currentDate === date ? 'active' : ''}`}
-                onClick={() => handleDateChange(date)}
-              >
-                {date.split('-')[2]}日
-              </button>
-            ))}
-          </nav>
-        </>
+        <div className="date-selector">
+          <span className="date-label"><Calendar size={14} /> バックナンバー:</span>
+          <select
+            className="date-select"
+            value={currentDate}
+            onChange={(e) => handleDateChange(e.target.value)}
+          >
+            {availableDates.map(date => {
+              const [, m, d] = date.split('-');
+              return (
+                <option key={date} value={date}>
+                  {parseInt(m, 10)}月{parseInt(d, 10)}日
+                </option>
+              );
+            })}
+          </select>
+        </div>
       )}
 
       {selectedNews ? (
@@ -177,9 +180,9 @@ const App: React.FC = () => {
 
           <footer>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginBottom: '20px' }}>
-              <Share2 size={20} cursor="pointer" title="シェア" />
-              <Mail size={20} cursor="pointer" title="購読" />
-              <ExternalLink size={20} cursor="pointer" title="アーカイブ" />
+              <span title="シェア" style={{ cursor: 'pointer' }}><Share2 size={20} /></span>
+              <span title="購読" style={{ cursor: 'pointer' }}><Mail size={20} /></span>
+              <span title="アーカイブ" style={{ cursor: 'pointer' }}><ExternalLink size={20} /></span>
             </div>
             <p>&copy; 2026 AI News Network. 無断複写・転載を禁じます。</p>
             <p style={{ fontSize: '0.7rem', marginTop: '10px' }}>

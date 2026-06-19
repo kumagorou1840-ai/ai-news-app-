@@ -58,6 +58,24 @@ body {
   border-color: var(--text-main);
 }
 
+.date-select {
+  padding: 6px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: white;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-main);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.date-select:hover,
+.date-select:focus {
+  border-color: var(--text-main);
+}
+
 .newsletter-nav {
   display: flex;
   justify-content: center;

@@ -8,7 +8,7 @@ DB_PATH = 'src/data/newsDatabase.ts'
 TARGET_DATE = datetime.now().strftime('%Y-%m-%d')
 
 def get_latest_date(content):
-    dates = re.findall(r"\'(\d{4}-\d{2}-\d{2})\'\:", content)
+    dates = re.findall(r"['\"](\d{4}-\d{2}-\d{2})['\"]:", content)
     return max(dates) if dates else None
 
 def generate_news_for_date(date_str):
